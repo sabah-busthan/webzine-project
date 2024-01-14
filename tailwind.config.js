@@ -2,8 +2,15 @@
 module.exports = {
   content: ["./dist/*.{html, js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'noto': ['Noto Sans Malayalam', 'sans-serif'],
+        'manjari': ['manjari', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
+
+
 
