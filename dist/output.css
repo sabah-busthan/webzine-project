@@ -444,6 +444,9 @@ video {
   display: none;
 }
 
+html{
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -607,12 +610,4 @@ video {
 
 .p-10 {
   padding: 2.5rem;
-}
-
-.font-noto {
-  font-family: Noto Sans Malayalam, sans-serif;
-}
-
-.font-manjari {
-  font-family: manjari, sans-serif;
 }
