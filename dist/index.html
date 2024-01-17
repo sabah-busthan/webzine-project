@@ -10,18 +10,37 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body class="scroll-smooth">
-    <header class="h-lvh" style="background-color: #A3C5F5;">
-        <svg class="absolute top-7 right-10 w-10 h-10" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
-        <!--- <div class="logo"></div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Poltics</li>
-                <li>Webzine</li>
-                <li>Islamic</li>
-                <li></li>
+    <nav class="sticky z-50 top-0 left-0 bg-white w-full shadow">
+        <div class="logo"></div>
+        <div class="container m-auto flex justify-between items-center text-gray-700">
+            <h1 class="pl-8 py-4 text-xl font-bold">SABAH</h1>
+            <ul class="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
+                <li class="hover:bg-gray-200 py-4 px-6">Home</li>
+                <li class="hover:bg-gray-200 py-4 px-6">Webzine</li>
+                <li class="hover:bg-gray-200 py-4 px-6">Poltics</li>
+                <li class="hover:bg-gray-200 py-4 px-6">Society</li>
+                <li class="hover:bg-gray-200 py-4 px-6">Islamic</li>
             </ul>
-        </nav> --->
+
+            <button class="block md:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-gray-200 group">
+                <div class="w-6 h-1 bg-gray-600 rounded mb-1"></div>
+                <div class="w-6 h-1 bg-gray-600 rounded mb-1"></div>
+                <div class="w-6 h-1 bg-gray-600 rounded "></div>
+                <div class="absolute top-0 -right-full h-screen w-6/12 bg-white border opacity-0 group-focus:opacity-100 group-focus:right-0 transition-all duration-300">
+                    <ul class="flex flex-col items-center text-base cursor-pointer pt-10">
+                        <li class="hover:bg-gray-200 py-4 px-6 w-full">Home</li>
+                        <li class="hover:bg-gray-200 py-4 px-6 w-full">Webzine</li>
+                        <li class="hover:bg-gray-200 py-4 px-6 w-full">Poltics</li>
+                        <li class="hover:bg-gray-200 py-4 px-6 w-full">Poltics</li>
+                        <li class="hover:bg-gray-200 py-4 px-6 w-full">Islamic</li>
+                    </ul>
+                </div>
+            </button>
+        </div>
+    </nav>
+    <header class="h-lvh" style="background-color: #A3C5F5;">
+       
+
 
         <!-- Cover Image -->
 

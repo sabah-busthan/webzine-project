@@ -593,6 +593,14 @@ nav ul li {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
 .-right-full {
   right: -100%;
 }
@@ -619,6 +627,14 @@ nav ul li {
 
 .top-7 {
   top: 1.75rem;
+}
+
+.-z-50 {
+  z-index: -50;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .m-auto {
