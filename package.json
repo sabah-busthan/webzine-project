@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sahal-git/webzine.git"
+    "url": "git+https://github.com/sabah-busthan/webzine-project.git"
   },
   "keywords": [
     "webzine_sabah"
@@ -17,9 +17,9 @@
   "author": "SABAH",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sahal-git/webzine/issues"
+    "url": "https://github.com/sabah-busthan/webzine-project/issues"
   },
-  "homepage": "https://github.com/sahal-git/webzine#readme",
+  "homepage": "https://github.com/sabah-busthan/webzine-project#readme",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   }
